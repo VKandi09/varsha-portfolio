@@ -81,12 +81,12 @@ const Contact = () => {
                             className="text-field reveal-up" 
                         />
                     </div>
-                    <div className="mb-4">
-                        <label htmlFor="" className="label reveal-up">Message</label>
-                        <textarea name="message" id="message" placeholder="Hi!" required className="text-field resize-y min-h-32 max-h-80 reveal-up"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up">Submit</button>
                 </div>
+                <div className="mb-4">
+                    <label htmlFor="" className="label reveal-up">Message</label>
+                    <textarea name="message" id="message" placeholder="Hi!" required className="text-field resize-y min-h-32 max-h-80 reveal-up"></textarea>
+                </div>
+                <button type="submit" className="btn btn-primary [&]:max-w-50 w-50 justify-center items-center reveal-up">Submit</button>
             </form>
         </div>
     </section>

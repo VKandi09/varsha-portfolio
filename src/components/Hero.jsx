@@ -34,11 +34,6 @@ const Hero = () => {
               label="Download CV"
               icon="download"
             />
-            <ButtonOutline
-              href="#about"
-              label="Scroll down"
-              icon="arrow_downward"
-            />
           </div>
         </div>
         <div className="hidden lg:block">
