@@ -64,7 +64,7 @@ const Review = () => {
             <h2 className="headline-2 mb-8 reveal-up">
                 What our customers say
             </h2>
-            <div className="flex items-stretch gap-3 w-fit">
+            <div className="flex items-stretch gap-3 w-fit scrub-slide">
                 {
                     reviews.map(({ content, name, imgSrc, company }, key) => (
                         <ReviewCard 
