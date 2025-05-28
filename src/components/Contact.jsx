@@ -20,11 +20,12 @@ const Contact = () => {
     <section id="contact" className="section">
         <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
             <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-                <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
+                <h2 className="headline-2 max-w-[50ch] lg:max-w-[30ch] reveal-up">
                   Have an idea or opportunity in mind?
                 </h2>
-                <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-                  I’d love to hear how we can work together.                </p>
+                <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[40ch] reveal-up">
+                  I’d love to hear how we can work together.                
+                </p>
                 <div className="flex items-center gap-2 mt-auto">
                     {
                         socialLinks.map(({ href, icon }, key) => (
