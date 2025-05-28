@@ -2,22 +2,22 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/filmbase.png',
+      title: 'FilmBase – Movie Search App',
+      tags: ['React', 'Fetch API', 'Tailwind CSS'],
+      projectLink: 'https://filmbase-vk.netlify.app/'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      imgSrc: '/images/quotes-shuffle.png',
+      title: 'Random Quote Generator App',
+      tags: ['JavaScript', 'React', 'API', 'Frontend', 'Responsive Design'],
+      projectLink: 'https://random-quote-vk.netlify.app/'
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
+      imgSrc: '/images/ebookhub.png',
+      title: 'EbookHub – Digital Book Library',
+      tags: ['React', 'JavaScript', 'Frontend', 'Book API'],
+      projectLink: 'https://ebookhub-vk.netlify.app/'
     },
     {
       imgSrc: '/images/project-4.jpg',
