@@ -1,11 +1,11 @@
 const aboutItems = [
     {
       label: 'Project done',
-      number: 45
+      number: 5
     },
     {
       label: 'Years of experience',
-      number: 10
+      number: 9
     }
 ];
 
@@ -14,11 +14,11 @@ const About = () => {
         <section id="about" className="section">
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-                    <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                        Welcome! I&apos;m Varsha, a professional web developer with a 
-                        knack for crafting visually stunning and highly functional websites. 
-                        Combining creativity and technical expertise. I transform your 
-                        vision into digital masterpiece that excels in both appearance and performance.
+                    <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[80ch]">
+                    Hello! I am Varsha, a web developer specializing in crafting modern, responsive websites that deliver exceptional user experiences. 
+                    With a balance of creativity and technical skill, I transform ideas into clean, 
+                    efficient code—building digital solutions that are both visually compelling and highly functional. 
+                    Explore my work to see how I bring designs to life with performance and precision.
                     </p>
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">
                         {

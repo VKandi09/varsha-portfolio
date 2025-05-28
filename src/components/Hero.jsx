@@ -1,20 +1,17 @@
-import { ButtonPrimary, ButtonOutline } from "./Button"
-
+import { ButtonPrimary } from "./Button";
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className="pt-28 lg:pt-36"
-    >
+    <section id="home" className="pt-28 lg:pt-36">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div>
           <div className="flex items-center gap-3">
-            <figure className="img-box w-9 h-9 rounded-lg">
+            <figure className="img-box w-20 h-20 rounded-lg">
               <img 
-                src="/images/avatar-1.jpg"
-                width={40}
-                height={40}
+                src="/images/about-pic.png"
+                width={60}
+                height={60}
                 alt="VK portrait"
                 className="img-cover"
               />
@@ -27,23 +24,32 @@ const Hero = () => {
             </div>
           </div>
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable Modern Websites for the Future
+          Building Intuitive, User-Centered Web Applications
           </h2>
+
           <div className="flex items-center gap-3">
-            <ButtonPrimary 
-              label="Download CV"
-              icon="download"
+            <ButtonPrimary label="Download CV" icon="download" target="_blank" href="/resume.pdf"/>
+          </div>
+        </div>
+
+        <div className="mt-8 md:mt-0 lg:flex items-center justify-between">
+          <div className="bg-zinc-400 p-6 rounded-lg shadow-lg w-[500px] h-[250px] font-mono text-md text-zinc-950 whitespace-pre-line leading-loose text-left">
+            <TypeAnimation
+              sequence={[
+                '> Initializing portfolio...\n> Building scalable modern websites...', 2000,
+                '> Initializing portfolio...\n> Building scalable modern websites...\n> Connecting to GitHub...', 2000,
+                '> Initializing portfolio...\n> Building scalable modern websites...\n> Connecting to GitHub...\n✔ Deployment successful!', 3000,
+                '',1000
+              ]}
+              speed={40}
+              repeat={Infinity}
+              cursor={true}
             />
           </div>
         </div>
-        <div className="hidden lg:block">
-          <figure className="w-full max-w[100px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-            <img src="/images/hero-banner.png" alt="Varsha Kandi" className="w-full" width={656} height={800} />
-          </figure>
-        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
