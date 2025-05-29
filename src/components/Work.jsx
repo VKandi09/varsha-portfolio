@@ -15,7 +15,7 @@ const works = [
     },
     {
       imgSrc: '/images/ebookhub.png',
-      title: 'EbookHub – Digital Book Library',
+      title: 'eBook Hub – Digital Book Library',
       tags: ['React', 'JavaScript', 'Frontend', 'Book API'],
       projectLink: 'https://ebookhub-vk.netlify.app/'
     },

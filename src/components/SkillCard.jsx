@@ -6,8 +6,8 @@ const SkillCard = ({
     classes
 }) => {
   return (
-    <div className={'flex items-center gap-3 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 flex-shrink-0 transition-colors group ' + classes}>
-        <figure className="bg-zinc-700/50 items-center rounded-lg overflow-hidden w-20 h-20 p-2 group-hover:bg-zinc-900 transition-colors">
+    <div className={'flex items-center gap-3 bg-slate-900/80 ring-2 ring-inset ring-slate-50/10 rounded-2xl p-3 hover:bg-slate-700/50 flex-shrink-0 transition-colors group ' + classes}>
+        <figure className="bg-slate-700/50 items-center rounded-lg overflow-hidden w-20 h-20 p-2 group-hover:bg-slate-900 transition-colors">
             <img 
                 src={imgSrc} 
                 alt={label}

@@ -33,15 +33,16 @@ const Hero = () => {
         </div>
 
         <div className="mt-8 md:mt-0 lg:flex items-center justify-between">
-          <div className="bg-zinc-400 p-6 rounded-lg shadow-lg w-[500px] h-[250px] font-mono text-md text-zinc-950 whitespace-pre-line leading-loose text-left">
+          <div className="bg-slate-900 p-6 pt-10 rounded-lg shadow-lg w-[500px] h-[250px] items-center font-mono text-lg text-zinc-250 whitespace-pre-line leading-loose text-left">
             <TypeAnimation
               sequence={[
+                '> Initializing portfolio...', 2000,
                 '> Initializing portfolio...\n> Building scalable modern websites...', 2000,
                 '> Initializing portfolio...\n> Building scalable modern websites...\n> Connecting to GitHub...', 2000,
                 '> Initializing portfolio...\n> Building scalable modern websites...\n> Connecting to GitHub...\n✔ Deployment successful!', 3000,
                 '',1000
               ]}
-              speed={40}
+              speed={30}
               repeat={Infinity}
               cursor={true}
             />

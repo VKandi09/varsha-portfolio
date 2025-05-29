@@ -29,7 +29,7 @@ const Header = () => {
             </div>
             <a
                 href="#contact"
-                className="btn btn-secondary max-md:hidden md:justify-self-end"
+                className="btn btn-secondary max-md:hidden md:justify-self-end transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
                 Contact Me
             </a>
