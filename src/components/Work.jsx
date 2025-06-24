@@ -5,20 +5,32 @@ const works = [
       imgSrc: '/images/filmbase.png',
       title: 'FilmBase – Movie Search App',
       tags: ['React', 'Fetch API', 'Tailwind CSS'],
-      projectLink: 'https://filmbase-vk.netlify.app/'
+      projectLink: 'https://filmbaseapp.netlify.app/'
     },
     {
       imgSrc: '/images/quotes-shuffle.png',
       title: 'Random Quote Generator App',
       tags: ['JavaScript', 'React', 'API', 'Frontend', 'Responsive Design'],
-      projectLink: 'https://random-quote-vk.netlify.app/'
+      projectLink: 'https://randomquotegen-app.netlify.app/'
     },
     {
       imgSrc: '/images/ebookhub.png',
       title: 'eBook Hub – Digital Book Library',
       tags: ['React', 'JavaScript', 'Frontend', 'Book API'],
-      projectLink: 'https://ebookhub-vk.netlify.app/'
+      projectLink: 'https://ebookhubapp.netlify.app/'
     },
+    {
+      imgSrc: '/images/wordnode.png',
+      title: 'WordNode – A Blogging Platform',
+      tags: ['React', 'Frontend', 'Blog', 'JavaScript'],
+      projectLink: 'https://word-node.netlify.app/'
+    },
+    {
+      imgSrc: '/images/todone.png',
+      title: 'Todone – Smart To-Do List App',
+      tags: ['React', 'Responsive UI', 'JavaScript', 'Frontend', 'Task Management'],
+      projectLink: 'https://todone-app.netlify.app/'
+    }
 ];
 
 const Work = () => {
