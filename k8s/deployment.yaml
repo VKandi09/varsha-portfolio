@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: varsha-portfolio-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: varsha-kandi
+  template:
+    metadata:
+      labels:
+        app: varsha-kandi
+    spec:
+      containers:
+      - name: portfolio
+        image: vkandi09/varsha-kandi-portfolio:latest
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
