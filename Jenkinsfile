@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone Repo') {
       steps {
-        git credentialsId: 'github-creds', url: 'https://github.com/VKandi09/varsha-portfolio.git'
+        git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/VKandi09/varsha-portfolio.git'
       }
     }
 
