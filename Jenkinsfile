@@ -11,7 +11,7 @@ pipeline {
     stage('Build Docker Image') {
       steps {
         script {
-          docker.build('varsha-kandi-portfolio')
+          docker.build('vkandi09/varsha-kandi-portfolio')
         }
       }
     }
@@ -21,7 +21,7 @@ pipeline {
         withCredentials([usernamePassword(credentialsId: 'dockerhub-creds', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
           script {
             docker.withRegistry('https://index.docker.io/v1/', 'dockerhub-creds') {
-              docker.image('varsha-kandi-portfolio').push('latest')
+              docker.image('vkandi09/varsha-kandi-portfolio').push('latest')
             }
           }
         }
