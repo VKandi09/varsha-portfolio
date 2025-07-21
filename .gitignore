@@ -25,3 +25,8 @@ dist-ssr
 
 # personal notes
 notes.txt
+
+k8s
+Dockerfile
+Jenkinsfile
+nginx.conf
