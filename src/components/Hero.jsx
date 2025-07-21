@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
 
         <div className="w-full mt-10 lg:mt-0 flex justify-center">
-          <div className="bg-slate-900 p-5 sm:p-6 pt-10 rounded-lg shadow-lg w-full max-w-xl min-h-[200px] sm:min-h-[250px] font-mono text-base sm:text-lg text-zinc-200 whitespace-pre-line leading-loose text-left">
+          <div className="bg-slate-900 p-5 sm:p-6 sm:pt-10 rounded-lg shadow-lg w-full max-w-xl min-h-[200px] sm:min-h-[250px] font-mono text-base sm:text-lg text-zinc-200 whitespace-pre-line leading-loose text-left">
             <TypeAnimation
               sequence={[
                 '> Initializing portfolio...', 2000,
